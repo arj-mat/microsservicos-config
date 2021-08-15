@@ -3,7 +3,7 @@ server:
   
 spring:
   datasource:
-    url: jdbc:h2:mem:shop_cart_db
+    url: jdbc:h2:file:/data/shop_cart_db
     driverClassName: org.h2.Driver
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
