@@ -7,6 +7,9 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
     
 eureka:
   instance: 
