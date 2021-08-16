@@ -16,12 +16,12 @@ eureka:
 spring:
   cloud:
     gateway:
-    globalcors:
+      globalcors:
         cors-configurations:
           '[/**]':
             allowedOrigins: "http://localhost*"
             allowedMethods:
-            - GET
+              - GET
       discovery:
         locator:
           enabled: true
